@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/main.css");
+
+:root {
+    --ft-principal: "Montserrat";
+
+
+    --bg-principal: #F9F7FD;
+    --bg-branco: #FFFFFF;
+    --bg-video: #FFB050;
+    --bg-endereco: #4894FF;
+
+    --cl-principal: #A3A3A3;
+    --cl-titulo: #464646;
+    --cl-branco: #FFFFFF;
+    --cl-cinza: #ECECEC;
+    --cl-cinza-secundario: #F6F6F6;
+
+}
+
+body {
+    font-family: var(--ft-principal);
+    background: var(--bg-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}

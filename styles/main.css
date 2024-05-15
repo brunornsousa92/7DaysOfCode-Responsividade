@@ -1,0 +1,136 @@
+.consulta__data {
+    display: flex;
+    align-items: center;
+    height: 2.875rem;
+}
+
+.consulta ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consulta__card {
+    background: var(--bg-branco);
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 9rem;
+    padding: 1rem 1rem 0;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.consulta__card-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consulta__card-paciente {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.consulta__card-paciente img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.consulta__card-paciente div {
+    display: flex;
+    flex-direction: column;
+}
+
+.consulta__card-titulo .consulta__card-chat {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    background: var(--bg-principal);
+    background-image: url("../assets/Chatcirculo1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.consulta__card-paciente span {
+    font-size: 0.75rem;
+    color: var(--cl-principal);
+    display: flex;
+    align-items: center;
+}
+
+.consulta__card-paciente span>span {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.consulta__card-paciente span>span.camera {
+    background-image: url("../assets/Camera.png");
+}
+
+.consulta__card-paciente span>span.mapa {
+    background-image: url("../assets/pin.png");
+
+}
+
+.consulta__card-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 5.125rem;
+    border-top: 1px solid #46464619;
+}
+
+.consulta__card-conteudo p {
+    font-size: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.consulta__card-acoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.consulta__card-acoes button {
+    min-width: 8.75rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding: 0.813rem 1rem;
+    margin-right: 1rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.consulta__card-acoes button:only-of-type {
+    margin: 0;
+}
+
+.btn-primario {
+    border: none;
+    background: var(--bg-endereco);
+    color: var(--cl-branco);
+}
+
+.btn-secundario {
+    border: none;
+    background: var(--bg-video);
+    color: var(--cl-branco);
+}
+
+.btn-terciario {
+    background: var(--bg-branco);
+    border: 1px solid var(--cl-cinza);
+}
+

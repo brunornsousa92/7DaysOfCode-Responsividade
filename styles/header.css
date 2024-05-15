@@ -1,0 +1,43 @@
+.barra-notificacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: var(--bg-branco);
+}
+
+.barra-notificacao div {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.barra-notificacao div img {
+    margin-left: 0.5rem;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 2rem 1rem 1.5rem;
+    align-items: center;
+}
+
+.cabecalho img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+}
+
+.cabecalho strong {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--cl-titulo);
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.cabecalho p {
+    font-size: 0.875rem;
+    color: var(--cl-principal);
+    margin-left: 1rem;
+}
+

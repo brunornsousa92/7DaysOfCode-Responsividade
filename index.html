@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>App Consulta Médica</title>
+</head>
+
+<body>
+    <nav class="barra-notificacao">
+        <div>
+            03:33
+        </div>
+        <div>
+            <img src="./assets/signal_cellular_4_bar.png" alt="ícone do sinal do celular">
+            <img src="./assets/battery_full.png" alt="ícone da bateria do celular">
+            <img src="./assets/wifi.png" alt="ícone do sinal wi-fi">
+        </div>
+    </nav>
+    <header class="container__cabecalho">
+        <section class="cabecalho">
+            <div>
+                <img src="./assets/perfil-1.jpg" alt="">
+            </div>
+            <div>
+                <strong>Olá, Sônia</strong>
+                <p>Mais 4 consultas hoje</p>
+            </div>
+        </section>
+    </header>
+    <main class="container__principal">
+
+        <section class="consulta">
+            <div class="consulta__data">
+                <strong>Hoje</strong>
+            </div>
+            <ul>
+                <li>
+                    <div class="consulta__card">
+                        <div class="consulta__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="./assets/perfil-2.jpg" alt="Imagem de perfil do paciente">
+                                <div>
+                                    <strong>Luciana Dias</strong>
+                                    <span>
+                                        <span aria-hidden="true" class="camera"></span>
+                                        Consulta Remota
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="consulta__card-chat"></button>
+                        </div>
+                        <div class="consulta__card-conteudo">
+                            <p>14:00 - 15:00 (1 hora)</p>
+                            <div class="consulta__card-acoes">
+                                <button class="btn-secundario">Ligar por vídeo</button>
+                                <button class="btn-terciario">Ligar por áudio</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </li>
+            </ul>
+
+        </section>
+
+</body>
+
+</html>
