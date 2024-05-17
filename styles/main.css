@@ -4,6 +4,12 @@
     height: 2.875rem;
 }
 
+.consulta__data strong {
+    font-weight: 700;
+    color: var(--cl-titulo);
+    margin-left: 1rem;
+}
+
 .consulta ul {
     list-style: none;
     display: flex;
@@ -15,7 +21,7 @@
     background: var(--bg-branco);
     display: flex;
     flex-direction: column;
-    width: 20.5rem;
+    width: 19rem;
     height: 9rem;
     padding: 1rem 1rem 0;
     border-radius: 0.5rem;
