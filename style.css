@@ -1,5 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/main.css");
+@import url("styles/navbar.css");
+@import url("styles/botaoFlutuante.css");
 @import url("styles/footer.css");
 
 :root {

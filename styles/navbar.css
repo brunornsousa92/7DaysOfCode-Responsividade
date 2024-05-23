@@ -1,0 +1,50 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--bg-branco);
+    width: 100vw;
+    border-radius: .5rem .5rem 0 0 ;
+}
+
+.navbar__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
+    margin: .5rem auto;
+    align-items: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.navbar__item {
+    font-size: .75rem;
+    text-align: center;
+}
+
+.navbar__item:hover {
+    color: var(--bg-endereco);
+}
+
+.navbar__item::before {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.navbar__item--consulta::before {
+    content: url("../assets/Calendarioicone.png");
+    
+}
+
+.navbar__item--cliente::before {
+    content: url("../assets/clientes\ icone.svg");
+}
+
+.navbar__item--relatorio::before {
+    content: url("../assets/relatorios\ icone.png");
+}
+
+.navbar__item--menu::before {
+    content: url("../assets/menu\ icone.png");
+}
