@@ -1,17 +1,20 @@
-function toggleFAB(fab) {
-    if(document.querySelector(fab).classList.contains('show')){
-        document.querySelector(fab).classList.remove('show');
-    }else {
-        document.querySelector(fab).classList.add('show');
-    }
-}
+document.addEventListener('DOMContentLoaded', () => {
+    const mainButton = document.getElementById('mainButton');
+    const overlay = document.getElementById('overlay');
 
-document.querySelector('.fab .btn-main').addEventListener('click', function(){
-    toggleFAB('.fab');
-});
-
-document.querySelector('.fab ul li button').forEach((item)=>{
-    item.addEventListener('click', function() {
-        toggleFAB('.fab');
+    mainButton.addEventListener('click', () => {
+        toggleOverlay();
     });
+
+    overlay.addEventListener('click', () => {
+        toggleOverlay();
+    });
+
+    function toggleOverlay() {
+        if (overlay.style.display === 'block') {
+            overlay.style.display = 'none';
+        } else {
+            overlay.style.display = 'block';
+        }
+    }
 });
